@@ -1,0 +1,88 @@
+/* Array Engineering brand colors */
+:root {
+  --md-primary-fg-color: #A54500;
+  --md-primary-fg-color--light: #c45a10;
+  --md-primary-fg-color--dark: #8a3a00;
+  --md-accent-fg-color: #FFB74B;
+  --md-accent-fg-color--transparent: rgba(255, 183, 75, 0.1);
+}
+
+/* Dosis for headings */
+h1, h2, h3, h4, h5, h6,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+/* Header bar — light so logo text is visible */
+.md-header,
+.md-header[data-md-state="shadow"] {
+  background-color: #faf6f2 !important;
+  color: #454545;
+}
+
+.md-header a {
+  color: #454545;
+}
+
+/* Search icon and other header icons */
+.md-header .md-icon {
+  color: #454545;
+}
+
+.md-header .md-header__title {
+  display: none;
+}
+
+/* Tabs */
+.md-tabs {
+  background-color: #faf6f2;
+}
+
+.md-tabs__link {
+  color: #A54500;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #FFB74B;
+}
+
+/* Links */
+.md-typeset a {
+  color: #A54500;
+}
+
+.md-typeset a:hover {
+  color: #FFB74B;
+}
+
+/* Logo sizing in header */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.8rem;
+  width: auto;
+}
+
+/* Sidebar — light background so logo text is visible */
+.md-nav__source,
+.md-nav--primary .md-nav__title {
+  background-color: #faf6f2 !important;
+  color: #454545;
+}
+
+/* Hide redundant site name text in sidebar (logo has it) */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  font-size: 0;
+}
+
+.md-nav--primary .md-nav__title .md-logo svg,
+.md-nav--primary .md-nav__title .md-logo img {
+  height: 2rem;
+  width: auto;
+}
